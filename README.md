@@ -1,12 +1,14 @@
-# Generating data
+# Trabajo de Fin de Grado
+
+## Generación de conjuntos de datos
 
 sbatch dump_dataset.sh
     
-# Training
+## Entrenamiento
 
 sbatch train_sr50.sh
 
-# Evaluation
+## Evaluación experimental
 
 sbatch test_all.sh
 
